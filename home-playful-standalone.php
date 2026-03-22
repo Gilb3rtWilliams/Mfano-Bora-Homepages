@@ -78,7 +78,7 @@ function newsUrl($id, $title)
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: #fff;
+      background: var(--grey);
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
       padding: 0 2.5rem;
       display: flex;
@@ -1391,6 +1391,45 @@ function newsUrl($id, $title)
       }
     }
 
+    /* ════ GILBERT ACKNOWLEDGEMENT ════ */
+    .mb-credit {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: rgba(232,160,32,0.08);
+  border: 1px solid rgba(232,160,32,0.25);
+  border-radius: 10px;
+}
+.mb-credit-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #E8A020;
+  margin-bottom: 0.5rem;
+}
+.mb-credit-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+.mb-credit-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.mb-credit-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.mb-credit-links a:hover { color: #E8A020; }
+.mb-credit-links a span { font-size: 0.8rem; }
+
     /* ════ GILBERT ACKNOWLEDGEMENT BANNER ════ */
     .gw-ack {
       position: fixed;
@@ -1961,6 +2000,8 @@ function newsUrl($id, $title)
         </ul>
       </div>
 
+      
+
       <!-- Quick Links -->
       <div class="mb-footer-col">
         <h4>Quick Links</h4>
@@ -1996,6 +2037,27 @@ function newsUrl($id, $title)
           </div>
         </div>
       </div>
+
+      <!-- REDESIGN CREDIT/ ACKNOWLEDGEMENT -->
+      <div class="mb-acknowledgement">
+  <div class="mb-credit-label">Redesign by</div>
+  <div class="mb-credit-name">Gilbert Williams Nyange</div>
+  <div class="mb-credit-links">
+    <a href="mailto:gilbertwilliamsnyange@gmail.com">
+      <span>✉</span> gilbertwilliamsnyange@gmail.com
+    </a>
+    <a href="tel:+254719737274">
+      <span>📞</span> +254 719 737 274
+    </a>
+    <a href="https://www.linkedin.com/in/gilbertwilliamsnyange" target="_blank">
+      <span>🔗</span> LinkedIn
+    </a>
+    <a href="https://github.com/Gilb3rtWilliams" target="_blank">
+      <span>🐙</span> Gilb3rtWilliams
+    </a>
+  </div>
+</div>
+<!-- ── END REDESIGN CREDIT ── -->
 
     </div>
 
@@ -2049,7 +2111,7 @@ function newsUrl($id, $title)
     });
   </script>
 
-  <!-- ════ GILBERT ACKNOWLEDGEMENT BANNER ════ -->
+  <!-- ════ ACKNOWLEDGEMENT OF THE SENIOR DEVELOPER - GILBERT BANNER ════ -->
   <div class="gw-ack" id="gwAck">
     <div class="gw-ack-inner">
 
