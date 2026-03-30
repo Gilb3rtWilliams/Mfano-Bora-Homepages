@@ -1009,7 +1009,7 @@ function newsUrl($id, $title)
 
     .dn-acard-body h3 {
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 1rem;✕
       color: #fff;
       margin-bottom: .75rem;
     }
@@ -1551,7 +1551,7 @@ function newsUrl($id, $title)
       }
     }
 
-    /* ════ GILBERT ACKNOWLEDGEMENT ════ */
+    /* ════ REDESIGN CREDIT CSS ════ */
     .mb-credit {
   margin-top: 1.5rem;
   padding: 1rem 1.25rem;
@@ -1590,6 +1590,7 @@ function newsUrl($id, $title)
 .mb-credit-links a:hover { color: #E8A020; }
 .mb-credit-links a span { font-size: 0.8rem; }
 
+/* END OF REDESIGN CREDIT CSS */ 
 
     /* ════ GILBERT ACKNOWLEDGEMENT BANNER ════ */
     .gw-ack {
